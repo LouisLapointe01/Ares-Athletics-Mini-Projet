@@ -2,13 +2,13 @@ package Groupe;
 
 import java.util.Arrays;
 
-public class Annee {
+public class Saison {
 public Sport[] tabSport;
 int nombreSport = 0;
 	
 public int numero; 
 
-	public Annee(int numero) {
+	public Saison(int numero) {
 		this.numero = numero;
 		tabSport = new Sport[100];
 	}
