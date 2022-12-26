@@ -2,8 +2,8 @@ package Groupe;
 
 public class Sport {
 	String nomSport;
-	
-	public Sport(String nomSport) {
+	int nbrPhaseDeJeu;
+	public Sport(String nomSport,int nbrPhaseDeJeu,int nombreMinutesParPhaseDeJeuReglementaire, int dureeMax,int nombreJoueurSurTerrainMax){
 		this.nomSport = nomSport;
 	}
 	
