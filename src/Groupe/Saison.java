@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Saison {
 public Sport[] tabSport;
 int nombreSport = 0;
-	
 public int numero; 
 
 	public Saison(int numero) {
@@ -14,18 +13,12 @@ public int numero;
 	}
 	
 public void ajouterSport(Sport nom) {
+	if(nombreSport < 100) {
 	tabSport[nombreSport] = nom;
 	nombreSport ++;
+	}
 }
 
-/* public void supprimerSport(Sport nom) {
-	for(int i = 0; i < nombreSport; i++) {
-		if("tabSport[i].getNomSport()" == nom.getNomSport()) {
-			tabSport[i+1] = tabSport[i-1];
-			
-		}
-	}
-}*/
 public void supprimerSport(String nom) {
 	
 	int index = 1002;

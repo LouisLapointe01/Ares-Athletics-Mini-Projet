@@ -37,6 +37,27 @@ public class Main {
 	Saison2021.supprimerSport("rugby XV");
 	Saison2021.EnumerationSports();
 	
+	Equipe FcPaulSab = new Equipe(football);
+	Equipe OL = new Equipe(football);
+	
+	Amateur Lapointe = new Amateur("Louis Lapointe",24,188,"Avant Centre","Toulouse");
+	Pro Cherki = new Pro("Rayan Cherki",21,178,79,18000000,109000);
+	Pro Dumas = new Pro("Michel Dumas",23,211,130,18000000,109000);
+	Pro Pons = new Pro("Lilian Pons",29,198,89,1800,400000);
+	Pro Kante = new Pro("De Kante",39,198,87,140000,1000);
+	
+	System.out.println("\n");
+	FcPaulSab.ajouterJoueur(Lapointe);
+	OL.ajouterJoueur(Cherki);
+	OL.ajouterJoueur(Dumas);
+	OL.ajouterJoueur(Pons);
+	OL.ajouterJoueur(Kante);
+	
+	System.out.println("Enum Joueur puis supression:");
+	OL.EnumerationJoueur();
+	OL.supprimerJoueur("Michel Dumas");
+	System.out.println("\n");
+	OL.EnumerationJoueur();
 	
 }
 }
