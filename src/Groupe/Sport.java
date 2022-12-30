@@ -1,4 +1,4 @@
-package Groupe;
+package groupe;
 
 public class Sport {
 	String nomSport; int nbrPhaseDeJeu ; int minPhaseJeu ; int dureeMax ; int nombreJoueurTerrainMax;

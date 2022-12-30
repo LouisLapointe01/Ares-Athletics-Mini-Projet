@@ -1,4 +1,4 @@
-package Groupe;
+package groupe;
 
 import java.util.Arrays;
 

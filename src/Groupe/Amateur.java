@@ -1,4 +1,4 @@
-package Groupe;
+package groupe;
 
 public class Amateur extends Joueur {
 

@@ -1,4 +1,4 @@
-package Groupe;
+package groupe;
 
 public class Pro extends Joueur {
 public String nom;
